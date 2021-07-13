@@ -64,4 +64,5 @@ For example, BookRepresenter is used as a class with methods so that we can defi
 
 [] to_i string method
 [] [num1, num2].min (or .max) method in Ruby
+[] What is Active Job? I am skipping this video (no 16) and the testing for this (no 17). I can come back to it. 
 
