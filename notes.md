@@ -1,3 +1,5 @@
+git push --set-upstream origin master
+
 bin/rails new Nile --api ----- to create a new project
 
 bin/rails routes --- for creating routes
@@ -56,5 +58,10 @@ For example, BookRepresenter is used as a class with methods so that we can defi
 []let(:second_author) { FactoryBot.create(:author, first_name: 'H.G.', last_name:'Welss', age:70)}  --- how you assign values to variables.
 
 [] what is type?
-[] pagination in rails
+[] pagination in rails: The whole point of pagination is to stop returning thousands of results.
+    - limit is how we choose the size of the result set
+    - offset is how we page through them
+
+[] to_i string method
+[] [num1, num2].min (or .max) method in Ruby
 
