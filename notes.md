@@ -99,3 +99,8 @@ For example, BookRepresenter is used as a class with methods so that we can defi
 [] after you install the bcrypt (by adding that into your Gem file and running bundle), you need to restart your server
 
 
+[] tokens_and_options method
+
+[] what's the raise syntax for?
+
+[]
