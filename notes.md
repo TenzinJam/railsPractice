@@ -103,4 +103,31 @@ For example, BookRepresenter is used as a class with methods so that we can defi
 
 [] what's the raise syntax for?
 
-[]
+FROM FREECODE CAMP rails tutorial: FEW IMPORTANT NOTES:
+  erb stands for embedded ruby
+
+
+
+- Gem file: add third party things
+- Rails is an MVC architecture:
+    1) Models are database (you can use any kind of database and swap out databases and nothing in your code changes because rails abstracts those away)
+    2) Views are webpages: html
+    3) Controllers: brains behind the scene.
+
+- main folders in the ready made rails directory are:
+
+1) app: assets, controllers, models, views
+2) config: routes.rb
+3) database: migration(I think the migration files disappear once you have migrated them to the database) and schema
+4) specs:
+
+- CRUD scaffold in Rails
+ 1) rails g scaffold friends first_name:string, last_name:string, email:string, phone:string, twitter:string
+ The above command will create a migration with the validations specified, it will also create corresponding models, controllers and views without having to create them individually.
+ 2) once you have created this table, look into the db/migrate folder and you will a new file created with the table definition
+ 3) rails db:migrate ---> this pushes the migration into the database
+ 4) After that the schema file will appear in your migrate folder.
+
+
+- important commands:
+    1) rails g
