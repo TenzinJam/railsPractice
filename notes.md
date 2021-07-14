@@ -72,3 +72,15 @@ For example, BookRepresenter is used as a class with methods so that we can defi
 
 []rescue_from   -> what is this syntax?
 
+[] what is a service?
+
+[] authentication through JWT and it's testing seems replicable. Need to dig deeper.
+
+[] hmac secret in the tutorial is in a file that will eventually get pushed to the github? Do we not save that as an environment variable and add that to our git ignore?
+
+[]bin/rails g model User username:string - another example of creating a model. This script generates a migration the link to which will be in your console
+
+[] follow the above script by this ---> bin/rails db:migrate
+[] You need to build the relationship between authentication and authentication token service
+[] What is an Active Record?
+
