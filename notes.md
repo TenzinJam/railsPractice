@@ -84,3 +84,18 @@ For example, BookRepresenter is used as a class with methods so that we can defi
 [] You need to build the relationship between authentication and authentication token service
 [] What is an Active Record?
 
+[] Active Record method - such as has_secure_password
+
+[]what is the difference between: rails and bin/rails command. They seem to be doing the same thing
+
+[] Questions regarding factories in spec file. We are creating a book.rb and a user.rb, but we are not creating an author one? Because I see it in books_specs that we are using Factory bots to create authors.
+
+[] raise error unless user.authenticate(params.require(:password))  --- bunch of new syntax here, but authenticate method is provided by the has_secure_password
+
+[] print syntax in Ruby: p params.require(:password).inspect
+
+[] @user ||= User.find_by(username: params.require(:username)) ---- another interesting syntax
+
+[] after you install the bcrypt (by adding that into your Gem file and running bundle), you need to restart your server
+
+
